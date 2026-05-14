@@ -1,5 +1,5 @@
-// Demo-only: 无限轮播 Peek Banner（不属于 iBanner 库）
-// 原理与 iBanner 内核相同（UICollectionView 虚拟 500 * items 个 item），
+// Demo-only: 无限轮播 Peek Banner（不属于 IBanner 库）
+// 原理与 IBanner 内核相同（UICollectionView 虚拟 500 * items 个 item），
 // 但通过 sectionInset 实现两侧 Peek，配合 decelerationRate = .fast + 自定义 snap。
 
 import UIKit

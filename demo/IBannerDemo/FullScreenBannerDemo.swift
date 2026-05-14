@@ -40,7 +40,7 @@ struct FullScreenBannerDemo: View {
                     }
                     .bannerAutoPlay(interval: 3)
                     .onBannerPageChanged { index, card in
-                        print("[iBannerDemo] page: \(index) — \(card.title)")
+                        print("[IBannerDemo] page: \(index) — \(card.title)")
                     }
                     .frame(height: 200)
                 }
